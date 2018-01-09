@@ -8,10 +8,11 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `src`,
-        path: `${__dirname}/src/`
+        name: `projects`,
+        path: `${__dirname}/content/projects`
       }
     },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`
   ]
 };
