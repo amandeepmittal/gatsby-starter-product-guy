@@ -1,13 +1,19 @@
-# gatsby-starter-default
-The default Gatsby starter
+# gatsby-starter-product-guy
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+🚀 Gatsby Starter Product Guy Portfolio - Developed in ⚛️ React
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+**[Preview Link]**
 
-## Deploy
+## Installation
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+## Features
+
+* Single Page
+* A portfolio Developers and Product launchers alike
+
+## Quick Reference
+
+* To change site's name, author, description -> `gatsby-config.js` -> `siteMetadata`
+* To change CSS (where notinline) or global -> `layouts/index.css`
+
+#### License
