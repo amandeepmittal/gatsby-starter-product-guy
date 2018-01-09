@@ -2,7 +2,7 @@
 
 🚀 Gatsby Starter Product Guy Portfolio - Developed in ⚛️ React
 
-**[Preview Link]()**
+**[Preview Link](http://gatsby-starter-product-guy.surge.sh/)**
 
 ## Installation
 
