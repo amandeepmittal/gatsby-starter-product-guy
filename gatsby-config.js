@@ -1,6 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Gatsby Portfolio v3 SPA`,
+    author: `Aman Mittal`,
+    description: `👋 Open Source Developer`
   },
-  plugins: [`gatsby-plugin-react-helmet`],
-}
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`
+      }
+    },
+    `gatsby-plugin-react-helmet`
+  ]
+};
