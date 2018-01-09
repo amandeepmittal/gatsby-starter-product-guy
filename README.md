@@ -10,7 +10,7 @@
 
 * Single Page
 * A portfolio Developers and Product launchers alike
-* Using [Typography.js]() easy to switch fonts
+* Using [Typography.js](kyleamathews.github.io/typography.js/) easy to switch fonts
 * All your Project/Portfolio Data in Markdown, server by GraphQL
 * Responsive Design, optimized for Mobile devices
 
