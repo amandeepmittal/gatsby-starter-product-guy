@@ -4,6 +4,11 @@ import { siteMetadata } from "../../gatsby-config";
 
 import About from "../components/About";
 import Projects from "../components/Project";
+import BlogLinks from "../components/BlogLinks";
+import Skills from "../components/Skills";
+import Before from "../components/Before";
+import Favorite from "../components/Favorite";
+import Footer from "../components/Footer";
 
 class IndexPage extends Component {
   render() {
@@ -12,14 +17,26 @@ class IndexPage extends Component {
       <div>
         <h1>{siteMetadata.author}</h1>
         <h3>{siteMetadata.description}</h3>
+        <br />
         <About />
+        <br />
         <Projects projectEdges={projectEdges} />
+        <br />
+        <BlogLinks />
+        <br />
+        <Skills />
+        <br />
+        <Before />
+        <br />
+        <Favorite />
+        <hr />
+        <Footer />
       </div>
     );
   }
 }
 
-export const ProjectQuery = graphql`
+export const rootQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
@@ -30,7 +47,6 @@ export const ProjectQuery = graphql`
             date
             path
             ProductHuntLink
-
             BlogPost
             Revenue
           }
