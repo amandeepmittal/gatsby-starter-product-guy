@@ -2,7 +2,7 @@ import React from "react";
 
 const BlogLinks = () => (
   <div>
-    <h3>📝 Latest Blog Posts</h3>
+    <h2>📝 Latest Blog Posts</h2>
     <ul style={{ listStyle: "none" }}>
       <li>
         - Some Blog Post Title&nbsp;

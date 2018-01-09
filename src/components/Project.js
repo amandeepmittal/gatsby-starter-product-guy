@@ -22,9 +22,9 @@ class Projects extends Component {
 
     return (
       <div>
-        <h3>🚀 Projects/Apps</h3>
+        <h2>🚀 Projects/Apps</h2>
         {Data.map(project => (
-          <div key={project.title}>
+          <div key={project.title} style={{ padding: ".5rem" }}>
             <p>{project.title}</p>
             <ul style={{ listStyle: "none" }}>
               <li>- {project.excerpt}</li>

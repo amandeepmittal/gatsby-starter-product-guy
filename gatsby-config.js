@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Portfolio v3 SPA`,
-    author: `Aman Mittal`,
+    title: `Gatsby Starter Product Guy`,
+    author: `Product Guy`,
     description: `👋 Open Source Developer`
   },
   plugins: [
@@ -13,6 +13,12 @@ module.exports = {
       }
     },
     `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography.js`
+      }
+    },
     `gatsby-plugin-react-helmet`
   ]
 };

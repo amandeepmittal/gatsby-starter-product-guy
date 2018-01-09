@@ -11,6 +11,11 @@ const Footer = () => (
       Developed in ⚛️ React by{" "}
       <a href="http://www.amanhimself.me">Aman Mittal</a>
     </small>
+    <br />
+    <small>
+      Background Pattern provided by{" "}
+      <a href="http://www.heropatterns.com/">Hero Patterns</a>
+    </small>
   </div>
 );
 
